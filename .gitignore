@@ -1,0 +1,16 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs and temp
+*.log
+*.tmp
+
+# Shell history or creds (محض احتیاط)
+*.env
+*.secret
+*.bak
