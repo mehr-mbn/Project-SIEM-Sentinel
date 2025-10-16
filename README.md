@@ -1,0 +1,48 @@
+# 🛡️ Azure SIEM Sentinel Project
+
+This repository contains an end-to-end **Azure SIEM (Microsoft Sentinel)** deployment project, designed for hands-on learning and professional demonstration.
+
+---
+
+## 📘 Current Progress
+
+| Phase | Title | Status |
+|:------|:------|:--------|
+| 1 | Log Analytics Workspace & Sentinel Setup | ✅ Completed |
+| 2 | Data Connectors (Azure Activity + Entra ID Logs) | ✅ Completed |
+| 3 | Syslog Ingestion via Azure Monitor Agent (AMA) | ✅ Completed |
+| 4 | Automation & Response (Logic Apps) | 🔄 In Progress |
+| 5 | Security Hardening & Network Controls | ⏳ Planned |
+| 6 | Monitoring Dashboards & Cleanup | ⏳ Planned |
+
+---
+
+## 🧱 Structure (in progress)
+
+Project-SIEM-Sentinel/
+├── 01_Deployment/ # Deployment scripts (CLI / REST)
+├── 02_Documentation/ # Detailed READMEs for each phase
+├── 03_Exports/ # JSON templates
+└── screenshots/ # Validation screenshots
+
+
+---
+
+## 🧩 Description
+
+A modular Azure security monitoring environment that demonstrates:
+- Sentinel workspace deployment  
+- Log ingestion via Activity, Entra ID, and Syslog  
+- Integration with Azure Monitor Agent (AMA)  
+- Validation through KQL queries  
+- (Upcoming) Logic App automation, WAF, and dashboards  
+
+---
+
+📍 *This project is currently under active development (Phases 4–6 pending).*  
+The detailed phase-level documentation will be published once the final version is complete.
+
+---
+
+> Last updated: **October 2025**  
+> Maintained by: **Mehrnaz Barzegar** – Azure Security Architect (AZ-305 Certified)
