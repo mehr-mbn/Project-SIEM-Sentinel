@@ -1,0 +1,114 @@
+{
+  "etag": "\"3\"",
+  "fqdns": "",
+  "hardwareProfile": {
+    "vmSize": "Standard_B1s"
+  },
+  "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.Compute/virtualMachines/vm1",
+  "identity": {
+    "principalId": "143e0ad5-6f27-4d08-b116-836f52916845",
+    "tenantId": "a8baab5c-13d9-45d1-b6c1-46a9138f424e",
+    "type": "SystemAssigned"
+  },
+  "location": "canadacentral",
+  "macAddresses": "7C-1E-52-54-74-BE",
+  "name": "vm1",
+  "networkProfile": {
+    "networkInterfaces": [
+      {
+        "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.Network/networkInterfaces/vm1VMNic",
+        "resourceGroup": "rg-siem-demo"
+      }
+    ]
+  },
+  "osProfile": {
+    "adminUsername": "azureuser",
+    "allowExtensionOperations": true,
+    "computerName": "vm1",
+    "linuxConfiguration": {
+      "disablePasswordAuthentication": true,
+      "patchSettings": {
+        "assessmentMode": "ImageDefault",
+        "patchMode": "ImageDefault"
+      },
+      "provisionVMAgent": true,
+      "ssh": {
+        "publicKeys": [
+          {
+            "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCyNfe7X0q7B0eAz39p/vY3c45xpwBJgMGyg9tOQPp098cXtC32pAfYDUZ2Z5CdJKmfPJtTD1eCd08XapX0B7r1AUeyD+qWhS0m1mhnf4WUz3ADlgV1ad/idDtloXdRCGq7eGV9r/GJtJVFaRNomj05GIoT/jEjU0PimpEO7sHTKJubje4uzGsjAdoiy7rqvvhIPn0gRe03LPWGoJZpGrPeZB6MPoW1vyz0qpI1inzNhD5J2DjkJkNoF1QM9aOAQDuwaJBLiYEdhE9t5FzhzQd/WZZvh/77vCEaozIErzP+I3TWjGxkb6/0bHv4VBk+7k2qRfnc4ARsmoad/9LaRW6z",
+            "path": "/home/azureuser/.ssh/authorized_keys"
+          }
+        ]
+      }
+    },
+    "requireGuestProvisionSignal": true,
+    "secrets": []
+  },
+  "powerState": "VM running",
+  "privateIps": "10.0.0.4",
+  "provisioningState": "Succeeded",
+  "publicIps": "4.206.165.11",
+  "resourceGroup": "rg-siem-demo",
+  "resources": [
+    {
+      "autoUpgradeMinorVersion": true,
+      "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.Compute/virtualMachines/vm1/extensions/AzureMonitorLinuxAgent",
+      "location": "canadacentral",
+      "name": "AzureMonitorLinuxAgent",
+      "provisioningState": "Succeeded",
+      "publisher": "Microsoft.Azure.Monitor",
+      "resourceGroup": "rg-siem-demo",
+      "typeHandlerVersion": "1.37",
+      "typePropertiesType": "AzureMonitorLinuxAgent"
+    },
+    {
+      "autoUpgradeMinorVersion": true,
+      "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.Compute/virtualMachines/vm1/extensions/enablevmAccess",
+      "location": "canadacentral",
+      "name": "enablevmAccess",
+      "provisioningState": "Succeeded",
+      "publisher": "Microsoft.OSTCExtensions",
+      "resourceGroup": "rg-siem-demo",
+      "typeHandlerVersion": "1.5",
+      "typePropertiesType": "VMAccessForLinux"
+    }
+  ],
+  "securityProfile": {
+    "securityType": "TrustedLaunch",
+    "uefiSettings": {
+      "secureBootEnabled": true,
+      "vTpmEnabled": true
+    }
+  },
+  "storageProfile": {
+    "dataDisks": [],
+    "diskControllerType": "SCSI",
+    "imageReference": {
+      "exactVersion": "22.04.202510020",
+      "offer": "0001-com-ubuntu-server-jammy",
+      "publisher": "Canonical",
+      "sku": "22_04-lts-gen2",
+      "version": "latest"
+    },
+    "osDisk": {
+      "caching": "ReadWrite",
+      "createOption": "FromImage",
+      "deleteOption": "Detach",
+      "diskSizeGB": 30,
+      "managedDisk": {
+        "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.Compute/disks/vm1_disk1_57007e94c39c4f3dabde82bcb093840a",
+        "resourceGroup": "rg-siem-demo",
+        "storageAccountType": "Premium_LRS"
+      },
+      "name": "vm1_disk1_57007e94c39c4f3dabde82bcb093840a",
+      "osType": "Linux"
+    }
+  },
+  "tags": {
+    "phase": "3",
+    "project": "sentinel"
+  },
+  "timeCreated": "2025-10-16T16:09:42.261137+00:00",
+  "type": "Microsoft.Compute/virtualMachines",
+  "vmId": "11fc73b7-4caf-4a95-96c8-b1748d9651c8"
+}

@@ -1,0 +1,60 @@
+{
+  "dataFlows": [
+    {
+      "destinations": [
+        "la1"
+      ],
+      "streams": [
+        "Microsoft-Syslog"
+      ]
+    }
+  ],
+  "dataSources": {
+    "syslog": [
+      {
+        "facilityNames": [
+          "auth",
+          "authpriv"
+        ],
+        "logLevels": [
+          "Notice",
+          "Warning",
+          "Error",
+          "Critical",
+          "Alert",
+          "Emergency",
+          "Info"
+        ],
+        "name": "syslogSource",
+        "streams": [
+          "Microsoft-Syslog"
+        ]
+      }
+    ]
+  },
+  "destinations": {
+    "logAnalytics": [
+      {
+        "name": "la1",
+        "workspaceId": "63b407d3-e57f-452d-a22f-fe2691a64f31",
+        "workspaceResourceId": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.OperationalInsights/workspaces/law-siem-demo"
+      }
+    ]
+  },
+  "etag": "\"5d02e0e9-0000-0a00-0000-68f11d080000\"",
+  "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.Insights/dataCollectionRules/dcr-syslog",
+  "immutableId": "dcr-e3b02c47f1a94387b09b216b456f0c09",
+  "location": "canadacentral",
+  "name": "dcr-syslog",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "rg-siem-demo",
+  "systemData": {
+    "createdAt": "2025-10-16T16:27:50.9285244Z",
+    "createdBy": "mehribbn@mehrakmbngmail.onmicrosoft.com",
+    "createdByType": "User",
+    "lastModifiedAt": "2025-10-16T16:27:50.9285244Z",
+    "lastModifiedBy": "mehribbn@mehrakmbngmail.onmicrosoft.com",
+    "lastModifiedByType": "User"
+  },
+  "type": "Microsoft.Insights/dataCollectionRules"
+}

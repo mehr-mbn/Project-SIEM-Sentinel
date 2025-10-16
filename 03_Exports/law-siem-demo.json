@@ -1,0 +1,31 @@
+{
+  "createdDate": "2025-10-02T20:25:02.3390472Z",
+  "customerId": "63b407d3-e57f-452d-a22f-fe2691a64f31",
+  "etag": "\"7a02eb80-0000-0a00-0000-68efd9630000\"",
+  "features": {
+    "enableLogAccessUsingOnlyResourcePermissions": true,
+    "legacy": 0,
+    "searchVersion": 1,
+    "unifiedSentinelBillingOnly": true
+  },
+  "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.OperationalInsights/workspaces/law-siem-demo",
+  "location": "canadacentral",
+  "modifiedDate": "2025-10-15T17:26:27.3544205Z",
+  "name": "law-siem-demo",
+  "provisioningState": "Succeeded",
+  "publicNetworkAccessForIngestion": "Enabled",
+  "publicNetworkAccessForQuery": "Enabled",
+  "resourceGroup": "rg-siem-demo",
+  "retentionInDays": 30,
+  "sku": {
+    "lastSkuUpdate": "2025-10-02T20:25:02.3390472Z",
+    "name": "PerGB2018"
+  },
+  "tags": {},
+  "type": "Microsoft.OperationalInsights/workspaces",
+  "workspaceCapping": {
+    "dailyQuotaGb": 0.5,
+    "dataIngestionStatus": "RespectQuota",
+    "quotaNextResetTime": "2025-10-16T12:00:00Z"
+  }
+}

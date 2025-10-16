@@ -1,0 +1,18 @@
+[
+  {
+    "dataCollectionRuleId": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.Insights/dataCollectionRules/dcr-syslog",
+    "etag": "\"5e029f55-0000-0a00-0000-68f11de90000\"",
+    "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.Compute/virtualMachines/vm1/providers/Microsoft.Insights/dataCollectionRuleAssociations/dcrassoc-syslog-vm1",
+    "name": "dcrassoc-syslog-vm1",
+    "resourceGroup": "rg-siem-demo",
+    "systemData": {
+      "createdAt": "2025-10-16T16:31:37.1806961Z",
+      "createdBy": "mehribbn@mehrakmbngmail.onmicrosoft.com",
+      "createdByType": "User",
+      "lastModifiedAt": "2025-10-16T16:31:37.1806961Z",
+      "lastModifiedBy": "mehribbn@mehrakmbngmail.onmicrosoft.com",
+      "lastModifiedByType": "User"
+    },
+    "type": "Microsoft.Insights/dataCollectionRuleAssociations"
+  }
+]
