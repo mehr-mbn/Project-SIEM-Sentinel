@@ -1,0 +1,43 @@
+{
+  "extendedLocation": null,
+  "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.Web/connections/azuresentinel",
+  "identity": null,
+  "kind": "V1",
+  "location": "canadacentral",
+  "managedBy": null,
+  "name": "azuresentinel",
+  "plan": null,
+  "properties": {
+    "api": {
+      "brandColor": "",
+      "category": "Standard",
+      "description": "Cloud-native SIEM with a built-in AI so you can focus on what matters most",
+      "displayName": "Microsoft Sentinel",
+      "iconUri": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/v1.0.1767/1.0.1767.4341/azuresentinel/icon.png",
+      "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/providers/Microsoft.Web/locations/canadacentral/managedApis/azuresentinel",
+      "name": "azuresentinel",
+      "type": "Microsoft.Web/locations/managedApis"
+    },
+    "authenticatedUser": {
+      "name": "mehribbn@mehrakmbngmail.onmicrosoft.com"
+    },
+    "changedTime": "2025-10-20T22:05:16.1584412Z",
+    "connectionState": "Enabled",
+    "createdTime": "2025-10-20T20:35:41.0511276Z",
+    "customParameterValues": {},
+    "displayName": "azuresentinel",
+    "nonSecretParameterValues": {},
+    "overallStatus": "Connected",
+    "statuses": [
+      {
+        "status": "Connected"
+      }
+    ],
+    "testLinks": [],
+    "testRequests": []
+  },
+  "resourceGroup": "rg-siem-demo",
+  "sku": null,
+  "tags": null,
+  "type": "Microsoft.Web/connections"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "condition": null,
+    "conditionVersion": null,
+    "createdBy": "39895b15-d67d-47da-8cbc-b98d9f483a9a",
+    "createdOn": "2025-10-20T21:07:29.702567+00:00",
+    "delegatedManagedIdentityResourceId": null,
+    "description": null,
+    "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.Logic/workflows/pb-incident-add-comment-v2/providers/Microsoft.Authorization/roleAssignments/3179f066-e040-4fc8-a018-9208a5d86d9d",
+    "name": "3179f066-e040-4fc8-a018-9208a5d86d9d",
+    "principalId": "9e66a82b-4f14-4e61-bd6a-de6cc8b8d91e",
+    "principalName": "98785600-1bb7-4fb9-b9fa-19afe2c8a360",
+    "principalType": "ServicePrincipal",
+    "resourceGroup": "rg-siem-demo",
+    "roleDefinitionId": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/providers/Microsoft.Authorization/roleDefinitions/87a39d53-fc1b-424a-814c-f7e04687dc9e",
+    "roleDefinitionName": "Logic App Contributor",
+    "scope": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.Logic/workflows/pb-incident-add-comment-v2",
+    "type": "Microsoft.Authorization/roleAssignments",
+    "updatedBy": "39895b15-d67d-47da-8cbc-b98d9f483a9a",
+    "updatedOn": "2025-10-20T21:07:29.702567+00:00"
+  },
+  {
+    "condition": null,
+    "conditionVersion": null,
+    "createdBy": "39895b15-d67d-47da-8cbc-b98d9f483a9a",
+    "createdOn": "2025-10-20T22:02:54.903952+00:00",
+    "delegatedManagedIdentityResourceId": null,
+    "description": null,
+    "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.Logic/workflows/pb-incident-add-comment-v2/providers/Microsoft.Authorization/roleAssignments/8ae296e6-b4ea-476d-8ce3-01f4d8664ff3",
+    "name": "8ae296e6-b4ea-476d-8ce3-01f4d8664ff3",
+    "principalId": "02810f81-5851-4464-9634-5e6f0370632e",
+    "principalName": "354e860c-6a6c-4a77-a4f7-9b1b8ad98e5a",
+    "principalType": "ServicePrincipal",
+    "resourceGroup": "rg-siem-demo",
+    "roleDefinitionId": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/providers/Microsoft.Authorization/roleDefinitions/3e150937-b8fe-4cfb-8069-0eaf05ecd056",
+    "roleDefinitionName": "Microsoft Sentinel Responder",
+    "scope": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.Logic/workflows/pb-incident-add-comment-v2",
+    "type": "Microsoft.Authorization/roleAssignments",
+    "updatedBy": "39895b15-d67d-47da-8cbc-b98d9f483a9a",
+    "updatedOn": "2025-10-20T22:02:54.903952+00:00"
+  }
+]

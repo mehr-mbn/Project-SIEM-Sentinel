@@ -1,0 +1,55 @@
+{
+  "value": [
+    {
+      "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/providers/microsoft.insights/diagnosticSettings/ActivityToLAW-today",
+      "location": "global",
+      "name": "ActivityToLAW-today",
+      "properties": {
+        "logs": [
+          {
+            "category": "Administrative",
+            "categoryGroup": null,
+            "enabled": true
+          },
+          {
+            "category": "Security",
+            "categoryGroup": null,
+            "enabled": true
+          },
+          {
+            "category": "ServiceHealth",
+            "categoryGroup": null,
+            "enabled": true
+          },
+          {
+            "category": "Alert",
+            "categoryGroup": null,
+            "enabled": true
+          },
+          {
+            "category": "Recommendation",
+            "categoryGroup": null,
+            "enabled": true
+          },
+          {
+            "category": "Policy",
+            "categoryGroup": null,
+            "enabled": true
+          },
+          {
+            "category": "Autoscale",
+            "categoryGroup": null,
+            "enabled": true
+          },
+          {
+            "category": "ResourceHealth",
+            "categoryGroup": null,
+            "enabled": true
+          }
+        ],
+        "workspaceId": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.OperationalInsights/workspaces/law-siem-demo"
+      },
+      "type": "Microsoft.Insights/diagnosticSettings"
+    }
+  ]
+}
