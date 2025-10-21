@@ -37,12 +37,12 @@
       {
         "name": "la1",
         "workspaceId": "63b407d3-e57f-452d-a22f-fe2691a64f31",
-        "workspaceResourceId": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.OperationalInsights/workspaces/law-siem-demo"
+        "workspaceResourceId": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.OperationalInsights/workspaces/law-siem-demo"
       }
     ]
   },
   "etag": "\"5d02e0e9-0000-0a00-0000-68f11d080000\"",
-  "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.Insights/dataCollectionRules/dcr-syslog",
+  "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.Insights/dataCollectionRules/dcr-syslog",
   "immutableId": "dcr-e3b02c47f1a94387b09b216b456f0c09",
   "location": "canadacentral",
   "name": "dcr-syslog",
