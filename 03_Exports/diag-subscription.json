@@ -1,7 +1,7 @@
 {
   "value": [
     {
-      "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/providers/microsoft.insights/diagnosticSettings/ActivityToLAW-today",
+      "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/providers/microsoft.insights/diagnosticSettings/ActivityToLAW-today",
       "location": "global",
       "name": "ActivityToLAW-today",
       "properties": {
@@ -47,7 +47,7 @@
             "enabled": true
           }
         ],
-        "workspaceId": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.OperationalInsights/workspaces/law-siem-demo"
+        "workspaceId": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.OperationalInsights/workspaces/law-siem-demo"
       },
       "type": "Microsoft.Insights/diagnosticSettings"
     }

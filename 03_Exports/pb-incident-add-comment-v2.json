@@ -1,0 +1,173 @@
+{
+  "extendedLocation": null,
+  "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.Logic/workflows/pb-incident-add-comment-v2",
+  "identity": {
+    "principalId": "02810f81-5851-4464-9634-5e6f0370632e",
+    "tenantId": "a8baab5c-13d9-45d1-b6c1-46a9138f424e",
+    "type": "SystemAssigned",
+    "userAssignedIdentities": null
+  },
+  "kind": null,
+  "location": "canadacentral",
+  "managedBy": null,
+  "name": "pb-incident-add-comment-v2",
+  "plan": null,
+  "properties": {
+    "accessEndpoint": "https://prod-01.canadacentral.logic.azure.com:443/workflows/d9d35780ddc444ed89b8b1c81fbb01f2",
+    "changedTime": "2025-10-20T21:06:27.5019602Z",
+    "createdTime": "2025-10-20T21:06:27.5022904Z",
+    "definition": {
+      "$schema": "https://schema.management.azure.com/schemas/2016-06-01/workflowdefinition.json#",
+      "actions": {
+        "Add_comment_to_incident_V3": {
+          "inputs": {
+            "body": {
+              "incidentArmId": "@{triggerBody()?['object']?['id']}",
+              "message": "Playbook auto-comment: Incident received by Logic App."
+            },
+            "host": {
+              "connection": {
+                "name": "@parameters('$connections')['azuresentinel']['connectionId']"
+              }
+            },
+            "method": "post",
+            "path": "/Incidents/Comment"
+          },
+          "runAfter": {},
+          "type": "ApiConnection"
+        }
+      },
+      "contentVersion": "1.0.0.0",
+      "outputs": {},
+      "parameters": {
+        "$connections": {
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "Microsoft_Sentinel_incident": {
+          "inputs": {
+            "body": {
+              "callback_url": "@{listCallbackUrl()}"
+            },
+            "host": {
+              "connection": {
+                "name": "@parameters('$connections')['azuresentinel']['connectionId']"
+              }
+            },
+            "path": "/incident-creation"
+          },
+          "type": "ApiConnectionWebhook"
+        }
+      }
+    },
+    "endpointsConfiguration": {
+      "connector": {
+        "outgoingIpAddresses": [
+          {
+            "address": "52.237.32.212"
+          },
+          {
+            "address": "52.237.24.126"
+          },
+          {
+            "address": "13.71.170.208/28"
+          },
+          {
+            "address": "13.71.175.160/27"
+          },
+          {
+            "address": "20.48.200.192/27"
+          },
+          {
+            "address": "20.48.200.224/28"
+          },
+          {
+            "address": "40.82.184.43"
+          },
+          {
+            "address": "40.82.184.6"
+          }
+        ]
+      },
+      "workflow": {
+        "accessEndpointIpAddresses": [
+          {
+            "address": "20.175.241.90"
+          },
+          {
+            "address": "20.116.229.122"
+          },
+          {
+            "address": "4.172.59.88"
+          },
+          {
+            "address": "52.237.58.32"
+          },
+          {
+            "address": "20.116.231.233"
+          },
+          {
+            "address": "20.116.229.68"
+          },
+          {
+            "address": "4.172.57.90"
+          },
+          {
+            "address": "20.116.230.165"
+          }
+        ],
+        "outgoingIpAddresses": [
+          {
+            "address": "20.104.9.221"
+          },
+          {
+            "address": "20.48.132.222"
+          },
+          {
+            "address": "20.175.241.76"
+          },
+          {
+            "address": "20.116.229.92"
+          },
+          {
+            "address": "4.172.57.144"
+          },
+          {
+            "address": "52.237.56.228"
+          },
+          {
+            "address": "20.116.231.222"
+          },
+          {
+            "address": "20.116.229.57"
+          },
+          {
+            "address": "4.172.57.52"
+          },
+          {
+            "address": "20.116.230.54"
+          }
+        ]
+      }
+    },
+    "parameters": {
+      "$connections": {
+        "value": {
+          "azuresentinel": {
+            "connectionId": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.Web/connections/azuresentinel",
+            "connectionName": "azuresentinel",
+            "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/providers/Microsoft.Web/locations/canadacentral/managedApis/azuresentinel"
+          }
+        }
+      }
+    },
+    "provisioningState": "Succeeded",
+    "state": "Enabled",
+    "version": "08584406124980053152"
+  },
+  "resourceGroup": "rg-siem-demo",
+  "sku": null,
+  "tags": null,
+  "type": "Microsoft.Logic/workflows"
+}

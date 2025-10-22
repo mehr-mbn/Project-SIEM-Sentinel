@@ -4,7 +4,7 @@
   "hardwareProfile": {
     "vmSize": "Standard_B1s"
   },
-  "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.Compute/virtualMachines/vm1",
+  "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.Compute/virtualMachines/vm1",
   "identity": {
     "principalId": "143e0ad5-6f27-4d08-b116-836f52916845",
     "tenantId": "a8baab5c-13d9-45d1-b6c1-46a9138f424e",
@@ -16,7 +16,7 @@
   "networkProfile": {
     "networkInterfaces": [
       {
-        "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.Network/networkInterfaces/vm1VMNic",
+        "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.Network/networkInterfaces/vm1VMNic",
         "resourceGroup": "rg-siem-demo"
       }
     ]
@@ -52,7 +52,7 @@
   "resources": [
     {
       "autoUpgradeMinorVersion": true,
-      "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.Compute/virtualMachines/vm1/extensions/AzureMonitorLinuxAgent",
+      "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.Compute/virtualMachines/vm1/extensions/AzureMonitorLinuxAgent",
       "location": "canadacentral",
       "name": "AzureMonitorLinuxAgent",
       "provisioningState": "Succeeded",
@@ -63,7 +63,7 @@
     },
     {
       "autoUpgradeMinorVersion": true,
-      "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.Compute/virtualMachines/vm1/extensions/enablevmAccess",
+      "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.Compute/virtualMachines/vm1/extensions/enablevmAccess",
       "location": "canadacentral",
       "name": "enablevmAccess",
       "provisioningState": "Succeeded",
@@ -96,7 +96,7 @@
       "deleteOption": "Detach",
       "diskSizeGB": 30,
       "managedDisk": {
-        "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.Compute/disks/vm1_disk1_57007e94c39c4f3dabde82bcb093840a",
+        "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.Compute/disks/vm1_disk1_57007e94c39c4f3dabde82bcb093840a",
         "resourceGroup": "rg-siem-demo",
         "storageAccountType": "Premium_LRS"
       },

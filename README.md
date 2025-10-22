@@ -11,7 +11,7 @@ This repository contains an end-to-end **Azure SIEM (Microsoft Sentinel)** deplo
 | 1 | Log Analytics Workspace & Sentinel Setup | ✅ Completed |
 | 2 | Data Connectors (Azure Activity + Entra ID Logs) | ✅ Completed |
 | 3 | Syslog Ingestion via Azure Monitor Agent (AMA) | ✅ Completed |
-| 4 | Automation & Response (Logic Apps) | 🔄 In Progress |
+| 4 | Automation & Response (Logic Apps) | ✅ Completed |
 | 5 | Security Hardening & Network Controls | ⏳ Planned |
 | 6 | Monitoring Dashboards & Cleanup | ⏳ Planned |
 
@@ -39,7 +39,7 @@ A modular Azure security monitoring environment that demonstrates:
 
 ---
 
-📍 *This project is currently under active development (Phases 4–6 pending).*  
+📍 *This project is currently under active development (Phases 5–6 pending).*  
 The detailed phase-level documentation will be published once the final version is complete.
 
 ---

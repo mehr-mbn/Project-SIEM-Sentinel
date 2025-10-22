@@ -8,7 +8,7 @@
     "searchVersion": 1,
     "unifiedSentinelBillingOnly": true
   },
-  "id": "/subscriptions/xxxx-xxxx-xxxx-xxxx-xxxx/resourceGroups/rg-siem-demo/providers/Microsoft.OperationalInsights/workspaces/law-siem-demo",
+  "id": "/subscriptions/853ad820-86cd-4967-8fed-bc41b59f0d31/resourceGroups/rg-siem-demo/providers/Microsoft.OperationalInsights/workspaces/law-siem-demo",
   "location": "canadacentral",
   "modifiedDate": "2025-10-15T17:26:27.3544205Z",
   "name": "law-siem-demo",
