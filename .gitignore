@@ -1,0 +1,22 @@
+# secrets
+*.pfx
+*.pem
+*.key
+*.cer
+*.crt
+*bicepParams.local.json
+**/parameters.local.json
+**/*secret*.json
+**/*secrets*.json
+
+# terraform & cache
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
